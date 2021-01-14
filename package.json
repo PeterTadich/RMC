@@ -1,0 +1,29 @@
+{
+  "name": "rmc",
+  "version": "1.0.0",
+  "description": "Resolved Momentum Control (robotics)",
+  "main": "rmc.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterTadich/RMC.git"
+  },
+  "author": "Peter Tadich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeterTadich/RMC/issues"
+  },
+  "homepage": "https://github.com/PeterTadich/RMC#readme",
+  "dependencies": {
+    "camera-perspective": "git+https://github.com/PeterTadich/camera-perspective.git",
+    "elementary-rotations": "git+https://github.com/PeterTadich/elementary-rotations.git",
+    "homogeneous-transformations": "git+https://github.com/PeterTadich/homogeneous-transformations.git",
+    "javascript-data-structures": "git+https://github.com/PeterTadich/javascript-data-structures.git",
+    "lu-decomposition": "git+https://github.com/PeterTadich/lu-decomposition.git",
+    "matlab-javascript": "git+https://github.com/PeterTadich/matlab-javascript.git",
+    "matrix-computations": "git+https://github.com/PeterTadich/matrix-computations.git",
+    "singular-value-decomposition": "git+https://github.com/PeterTadich/singular-value-decomposition.git"
+  }
+}
