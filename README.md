@@ -3,7 +3,7 @@ Resolved Momentum Control (robotics)
 
 ## Dependencies
 
-There is 8 dependency 'matrix-computations', 'homogeneous-transformations', 'matlab-javascript', 'elementary-rotations', 'lu-decomposition', 'singular-value-decomposition', 'data-structures' and 'camera-perspective'.
+There is 8 dependency 'matrix-computations', 'homogeneous-transformations', 'matlab-javascript', 'elementary-rotations', 'lu-decomposition', 'singular-value-decomposition', 'javascript-data-structures' and 'camera-perspective'.
 
 ```bash
 https://github.com/PeterTadich/matrix-computations
@@ -12,7 +12,7 @@ https://github.com/PeterTadich/matlab-javascript
 https://github.com/PeterTadich/elementary-rotations
 https://github.com/PeterTadich/lu-decomposition
 https://github.com/PeterTadich/singular-value-decomposition
-https://github.com/PeterTadich/data-structures
+https://github.com/PeterTadich/javascript-data-structures
 https://github.com/PeterTadich/camera-perspective
 ```
 
@@ -121,7 +121,7 @@ Then run:
 
 ```bash
 npm init -y
-npm install https://github.com/PeterTadich/camera-perspective https://github.com/PeterTadich/data-structures https://github.com/PeterTadich/lu-decomposition https://github.com/PeterTadich/singular-value-decomposition https://github.com/PeterTadich/matlab-javascript https://github.com/PeterTadich/elementary-rotations https://github.com/PeterTadich/homogeneous-transformations https://github.com/PeterTadich/matrix-computations
+npm install https://github.com/PeterTadich/camera-perspective https://github.com/PeterTadich/javascript-data-structures https://github.com/PeterTadich/lu-decomposition https://github.com/PeterTadich/singular-value-decomposition https://github.com/PeterTadich/matlab-javascript https://github.com/PeterTadich/elementary-rotations https://github.com/PeterTadich/homogeneous-transformations https://github.com/PeterTadich/matrix-computations
 ```
 
 Added the following code to the package.json file
@@ -157,7 +157,7 @@ Full package.json file example
     "matlab-javascript": "git+https://github.com/PeterTadich/matlab-javascript.git",
     "matrix-computations": "git+https://github.com/PeterTadich/matrix-computations.git",
     "singular-value-decomposition": "git+https://github.com/PeterTadich/singular-value-decomposition.git",
-    "data-structures": "git+https://github.com/PeterTadich/data-structures.git",
+    "javascript-data-structures": "git+https://github.com/PeterTadich/javascript-data-structures.git",
     "camera-perspective": "git+https://github.com/PeterTadich/camera-perspective.git"
   }
 }
