@@ -165,7 +165,7 @@ Full package.json file example
 
 Modify the path to all modules (with-in the 'node_modules' directory). For example, give the path to the 'matrix-computations' file:
 
-```bash
+```js
 //from:
 import * as hlao from 'matrix-computations';
 //to:
