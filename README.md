@@ -110,8 +110,8 @@ Copy the following code to quadruped.html
 Copy the following code to quadruped.mjs
 
 ```js
-import * as rmc from './rmc.mjs';
-import * as cvp from './helpers/cvp.mjs';
+import * as rmc from './node_modules/rmc/rmc.mjs';
+import * as cvp from './node_modules/camera-perspective/cvp.mjs';
 
 cvp.canvasSetup();
 rmc.RMC();
@@ -121,7 +121,7 @@ Then run:
 
 ```bash
 npm init -y
-npm install https://github.com/PeterTadich/camera-perspective https://github.com/PeterTadich/javascript-data-structures https://github.com/PeterTadich/lu-decomposition https://github.com/PeterTadich/singular-value-decomposition https://github.com/PeterTadich/matlab-javascript https://github.com/PeterTadich/elementary-rotations https://github.com/PeterTadich/homogeneous-transformations https://github.com/PeterTadich/matrix-computations
+npm install https://github.com/PeterTadich/RMC
 ```
 
 Added the following code to the package.json file
@@ -161,6 +161,15 @@ Full package.json file example
     "camera-perspective": "git+https://github.com/PeterTadich/camera-perspective.git"
   }
 }
+```
+
+Modify the path to all modules (with-in the 'node_modules' directory). For example, give the path to the 'matrix-computations' file:
+
+```bash
+//from:
+import * as hlao from 'matrix-computations';
+//to:
+import * as hlao from '../matrix-computations/hlao.mjs';
 ```
 
 Now try:
