@@ -32,14 +32,14 @@ import * as svdcmp from 'singular-value-decomposition';
 import * as jds from 'javascript-data-structures';
 import * as cvp from 'camera-perspective';
 /*
-import * as hlao from './matrix-computations/hlao.mjs';
-import * as mcht from './homogeneous-transformations/mcht.mjs';
-import * as mtojs from './matlab-javascript/mtojs.mjs';
-import * as mcer from './elementary-rotations/mcer.mjs';
-import * as ludcmp from './lu-decomposition/ludcmp.mjs';
-import * as svdcmp from './singular-value-decomposition/svdcmp.mjs';
-import * as jds from './javascript-data-structures/jds.mjs';
-import * as cvp from './camera-perspective/cvp.mjs';
+import * as hlao from '../matrix-computations/hlao.mjs';
+import * as mcht from '../homogeneous-transformations/mcht.mjs';
+import * as mtojs from '../matlab-javascript/mtojs.mjs';
+import * as mcer from '../elementary-rotations/mcer.mjs';
+import * as ludcmp from '../lu-decomposition/ludcmp.mjs';
+import * as svdcmp from '../singular-value-decomposition/svdcmp.mjs';
+import * as jds from '../javascript-data-structures/jds.mjs';
+import * as cvp from '../camera-perspective/cvp.mjs';
 */
 
 var T_BaseFrame = [
